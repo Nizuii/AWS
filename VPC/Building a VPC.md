@@ -6,3 +6,4 @@ This documentation outlines the process for building a VPC from scratch. For thi
 
 <img width="1920" height="1009" alt="image" src="https://github.com/user-attachments/assets/f810697c-300c-47f6-ba8f-a0eeae3a351a" />
 
+The next step is to create the VPC. To do so, select `Your VPCs` from the left-hand navigation panel, then click the orange Create VPC button. Be sure to choose the VPC only option rather than VPC and more, as all settings will be configured manually.
