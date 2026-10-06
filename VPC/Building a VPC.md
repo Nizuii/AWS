@@ -53,3 +53,9 @@ The next step is to create an internet gateway. Click the Create internet gatewa
 <img width="1920" height="1009" alt="image" src="https://github.com/user-attachments/assets/4d0f4295-6337-4cb8-9a4a-66f42730bdb6" />
 
 <img width="1920" height="1007" alt="image" src="https://github.com/user-attachments/assets/5224337a-0f9c-4daa-acf1-02bf8f16f553" />
+
+Next, the public-rt route table needs to be configured and associated with the newly created internet gateway. To do this, click Edit routes, then add a new route with the destination 0.0.0.0/0 and the target set to Internet Gateway, specifying the IGW created earlier. Once configured, click Save changes to complete the process.
+
+<img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/c32623f2-82fa-4893-9bd1-93495ed91cdf" />
+
+<img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/ad33e969-c103-402d-9260-352a512d62aa" />
