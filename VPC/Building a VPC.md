@@ -1,4 +1,4 @@
-<img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/d0b86492-5edf-4f29-8d6e-a97497a3ccca" /><img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/9340b01d-2fe8-4024-9a14-e0dda3297f8e" /><img width="1920" height="1013" alt="image" src="https://github.com/user-attachments/assets/f5fcb68b-5240-4320-afea-fa7a7633674a" /># How to build a VPC?
+# How to build a VPC?
 
 This documentation outlines the process for building a VPC from scratch. For this demonstration, the Mumbai region will be used. To begin, we will create a new VPC. The first step is to sign in to an AWS account; in this example, a free tier AWS account is being used. Once signed in, navigate to the VPC section within AWS services. To access it, simply search for "VPC" in the search bar at the top, as illustrated below.w.
 
