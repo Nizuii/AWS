@@ -21,3 +21,6 @@ A VPC is isolated by default, like a building with no doors to the outside world
 The server also needs a public IP address, like a house needing a postal address to receive mail. The IGW does the translation between that public address and the server's private one.
 
 **Purpose**: it is the single, controlled doorway between our private network and the internet. Our database servers can sit on streets with no route to this gate, while our web server sits on a street that does have one.
+
+## Availability Zone (AZ)
+
