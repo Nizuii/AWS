@@ -1,4 +1,4 @@
-# How to build a VPC?
+<img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/d0b86492-5edf-4f29-8d6e-a97497a3ccca" /><img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/9340b01d-2fe8-4024-9a14-e0dda3297f8e" /><img width="1920" height="1013" alt="image" src="https://github.com/user-attachments/assets/f5fcb68b-5240-4320-afea-fa7a7633674a" /># How to build a VPC?
 
 This documentation outlines the process for building a VPC from scratch. For this demonstration, the Mumbai region will be used. To begin, we will create a new VPC. The first step is to sign in to an AWS account; in this example, a free tier AWS account is being used. Once signed in, navigate to the VPC section within AWS services. To access it, simply search for "VPC" in the search bar at the top, as illustrated below.w.
 
@@ -18,10 +18,22 @@ The next step is to assign a name to the VPC. In this example, the VPC will be n
 
 <img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/91ec96aa-5111-4c1f-b5dc-8cff3e7ef89d" />
 
-After that click on the Create VPC button and our VPC will be created successfully. Our next step is to create subnets. Here i will be create 4 subnets. 2 public subnets in 2 AZ's and 2 private subnets in 2 AZ's. First click on the Subnets in the left navigation panel. Then click on create subnet. After that we need to select our VPC from the VPC ID drop down bar. In the subnet settings below I am naming my subnet as public-subnet-1. And the availability zone is ap-south-1a, and IPv4 subnet CIDR block as 10.0.0.0/24
+Once the `Create VPC` button is clicked, the VPC will be created successfully. The next step is to create subnets. In this demonstration, four subnets will be created: two public subnets across two Availability Zones and two private subnets across two Availability Zones.
+
+To begin, select Subnets from the left-hand navigation panel, then click Create subnet. Next, select the appropriate VPC from the VPC ID dropdown menu. Under Subnet settings, name the subnet public-subnet-1, set the Availability Zone to ap-south-1a, and specify the IPv4 subnet CIDR block as 10.0.1.0/24.
 
 <img width="1920" height="1009" alt="image" src="https://github.com/user-attachments/assets/07034d94-df36-4b46-8831-2ecc84da70f1" />
 
-Once the `Create VPC` button is clicked, the VPC will be created successfully. The next step is to create subnets. In this demonstration, four subnets will be created: two public subnets across two Availability Zones and two private subnets across two Availability Zones.
+<img width="1920" height="1013" alt="image" src="https://github.com/user-attachments/assets/b0fcd66c-34af-4351-8b9f-b3e3bc749295" />
 
-To begin, select Subnets from the left-hand navigation panel, then click Create subnet. Next, select the appropriate VPC from the VPC ID dropdown menu. Under Subnet settings, name the subnet public-subnet-1, set the Availability Zone to ap-south-1a, and specify the IPv4 subnet CIDR block as 10.0.0.0/24.
+<img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/190e5497-904e-413b-abb9-3ebb40a6af53" />
+
+Following the same procedure used to create public-subnet-1, the next step is to create public-subnet-2. The only differences will be the Availability Zone, which will be set to ap-south-1b, and the CIDR notation, which will be 10.0.2.0/24.
+
+Similarly, two private subnets will now be created: private-subnet-1 with the Availability Zone ap-south-1a and CIDR notation 10.0.3.0/24, followed by private-subnet-2 with the Availability Zone ap-south-1b and CIDR notation 10.0.4.0/24.
+
+<img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/e5260b58-1a96-4de4-be84-fd6fdb4215be" />
+
+<img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/f68c35a0-4de9-4be2-86c5-8553de445d83" />
+
+
