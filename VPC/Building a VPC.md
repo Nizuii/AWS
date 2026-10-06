@@ -59,3 +59,5 @@ Next, the public-rt route table needs to be configured and associated with the n
 <img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/c32623f2-82fa-4893-9bd1-93495ed91cdf" />
 
 <img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/ad33e969-c103-402d-9260-352a512d62aa" />
+
+<img width="1920" height="1013" alt="image" src="https://github.com/user-attachments/assets/fd8647f9-6be4-46c1-a096-fc289f557344" />
