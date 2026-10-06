@@ -24,4 +24,8 @@ The server also needs a public IP address, like a house needing a postal address
 
 ## Availability Zone (AZ)
 
-AWS runs its infrastructure in physical data centers. A Region (for example, Mumbai) is a geographic area, and inside it AWS has several Availability Zones. That means AWS has data centers in the region Mumbai. It doesn't mean AWS have only one data center in Mumbai. AWS have 3 AZ (availability zones) in Mumbai itself. Even if one AZ is down due to natural disaster or power failure the other 2 AZ's will be running. Each AZ is one or more separate data centers with their own power, cooling and networking. They are far enough apart that a fire, flood or power cut in one is unlikely to affect the others, but close enough to be connected by very fast links.
+AWS runs its infrastructure in physical data centers. A Region (for example, Mumbai) is a geographic area, and inside it AWS has several Availability Zones. That means AWS has data centers in the region Mumbai. It doesn't mean AWS have only one data center in Mumbai. AWS have 3 AZ (availability zones) in Mumbai itself. Even if one AZ is down due to natural disaster or power failure the other 2 AZ's will be running. Each AZ is one or more separate data centers with their own power, cooling and networking. They are far enough apart that a fire, flood or power cut in one is unlikely to affect the others, but close enough to be connected by very fast links.  
+
+Each subnet lives in exactly one AZ. Your VPC spans the whole region, so you can create subnets in several AZs.
+
+**Purpose**: high availability. If you put your server in only one AZ and that data center has a problem, your application goes down. If you run copies in two AZs, the other keeps working. It's like keeping one backup of your important documents in a different building.
