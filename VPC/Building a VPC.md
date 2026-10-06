@@ -11,3 +11,9 @@ The next step is to create the VPC. To do so, select `Your VPCs` from the left-h
 <img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/13d8156a-76fb-4331-9061-110676b76a6f" />
 
 <img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/a91d3bca-3fe9-4e5a-ae4e-b9d8841b3c13" />
+
+The next step is to assign a name to the VPC. In this example, the VPC will be named LunarLabs-VPC, and the IPv4 CIDR block will be specified as 10.0.0.0/16. A /16 CIDR block provides 65,534 usable host IP addresses. All remaining settings should be left at their default values, as shown in the image.
+
+<img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/658e05ad-9285-4d6b-a5f2-7696d4bbf83b" />
+
+<img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/91ec96aa-5111-4c1f-b5dc-8cff3e7ef89d" />
