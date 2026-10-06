@@ -36,4 +36,5 @@ Similarly, two private subnets will now be created: private-subnet-1 with the Av
 
 <img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/f68c35a0-4de9-4be2-86c5-8553de445d83" />
 
+<img width="1920" height="1009" alt="image" src="https://github.com/user-attachments/assets/60c80c33-c5bc-437c-bba8-2b7212b97f31" />
 
