@@ -45,3 +45,7 @@ First, a route table will be created for the public subnets already provisioned.
 <img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/f47e3d4b-b7ba-4d5e-8938-b7088b4683e9" />
 
 <img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/636bd03b-b44a-4bbf-859e-180b005da229" />
+
+<img width="1920" height="1013" alt="image" src="https://github.com/user-attachments/assets/10d0045a-efa4-43c8-a0c6-64ed32f11fbd" />
+
+
