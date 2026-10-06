@@ -4,4 +4,5 @@ In this documentation we are going to look on how to build a VPC from scratch. F
 
 <img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/5b6defce-2eaa-4103-a175-2cc024b01f9a" />
 
-![Uploading image.png…]()
+<img width="1920" height="1009" alt="image" src="https://github.com/user-attachments/assets/f810697c-300c-47f6-ba8f-a0eeae3a351a" />
+
