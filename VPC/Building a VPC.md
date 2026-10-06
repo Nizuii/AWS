@@ -38,3 +38,10 @@ Similarly, two private subnets will now be created: private-subnet-1 with the Av
 
 <img width="1920" height="1009" alt="image" src="https://github.com/user-attachments/assets/60c80c33-c5bc-437c-bba8-2b7212b97f31" />
 
+The next task is to set up the routing tables. To do this, select Route Tables from the left-hand navigation panel, then click the Create route table button.
+
+First, a route table will be created for the public subnets already provisioned. Name this route table public-rt, select LunarLabs-VPC as the associated VPC, and click Create route table to complete the process. Following the same procedure, create a second route table for the private subnets, with the only difference being the name, which will be private-rt.
+
+<img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/f47e3d4b-b7ba-4d5e-8938-b7088b4683e9" />
+
+<img width="1920" height="1012" alt="image" src="https://github.com/user-attachments/assets/636bd03b-b44a-4bbf-859e-180b005da229" />
