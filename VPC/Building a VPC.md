@@ -48,7 +48,7 @@ First, a route table will be created for the public subnets already provisioned.
 
 <img width="1920" height="1013" alt="image" src="https://github.com/user-attachments/assets/10d0045a-efa4-43c8-a0c6-64ed32f11fbd" />
 
-Our next step is to create the internet gateway. Click on the Create Internet Gateway button and we have to give it a name here i am naming it lunar-labs-IGW and click on create internet gateway and we are done.
+The next step is to create an internet gateway. Click the Create internet gateway button, then provide a name for the gateway. In this example, it will be named lunar-labs-IGW. Once the name is entered, click Create internet gateway to complete the process.
 
 <img width="1920" height="1009" alt="image" src="https://github.com/user-attachments/assets/4d0f4295-6337-4cb8-9a4a-66f42730bdb6" />
 
