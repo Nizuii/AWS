@@ -37,3 +37,5 @@ The four main reasons for AWS having multiple regions is because:
 2. **Laws and compliance**: Many countries and industries require data to stay within certain borders. A company handling European customer data may need to keep it in Europe. Regions let us choose exactly where our data lives and be confident it stays there. AWS doesn’t move our data out of a Region unless we tell it to.
 3. **Resilience**: Floods, power failures, or outages can hit a whole area. Because Regions are isolated from each other, a problem in one Region normally doesn’t affect another. Companies that can’t afford downtime run their systems in two Regions as a safety net.
 4. **Availability and Cost**: Not every AWS service launches in every Region at the same time, and prices differ between Regions. The same server can cost different amounts in Mumbai and in N. Virginia.
+
+Each Region contains multiple Availability Zones (AZs), which are separate data center locations within that Region: **Region → Availability Zones → Data centers**
