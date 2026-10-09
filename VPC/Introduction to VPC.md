@@ -26,3 +26,5 @@
     <td>eu-west-2</td>
   </tr>
 </table>
+
+Think of a large bank with branches in many cities. Each branch is a self-contained operation with its own vault, staff, and systems. If I open an account at the Mumbai branch, my money sits in Mumbai. The Dublin branch can’t see it unless I deliberately arrange that.
