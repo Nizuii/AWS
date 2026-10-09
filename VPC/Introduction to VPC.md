@@ -39,3 +39,8 @@ The four main reasons for AWS having multiple regions is because:
 4. **Availability and Cost**: Not every AWS service launches in every Region at the same time, and prices differ between Regions. The same server can cost different amounts in Mumbai and in N. Virginia.
 
 Each Region contains multiple Availability Zones (AZs), which are separate data center locations within that Region: **Region → Availability Zones → Data centers**
+
+### What is Availability Zone
+
+A Region is not a single building. Inside each Region, AWS builds multiple separate data center locations, and each one is an Availability Zone. Each AZ has its own power, cooling, and networking, so a failure in one is unlikely to take down the others. They sit far enough apart to avoid sharing the same disaster, such as a fire or flood, but close enough to be connected by very fast, low-latency links. The hierarchy is:
+> Region → Availability Zones → Data centers
