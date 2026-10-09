@@ -130,3 +130,9 @@ A subnet is a slice of our VPC's IP range, placed inside one AZ. For example my 
     <td>16</td>
   </tr>
 </table>
+
+In AWS, each subnet also reserves 5 addresses for its own use, so a /24 has 251 usable ones.
+
+### Public vs private subnets
+
+A subnet is not public or private because of its name. It is public if its route table has a route to an Internet Gateway. The route looks like this: destination 0.0.0.0/0 (meaning “everywhere else”) goes to igw-xxxx. If no such route exists, the subnet is private: its resources can talk to others inside the VPC but not directly to the internet. 
