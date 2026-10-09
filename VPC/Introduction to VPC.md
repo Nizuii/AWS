@@ -98,7 +98,35 @@ A subnet is a slice of our VPC's IP range, placed inside one AZ. For example my 
     <td>4,096</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>/21</td>
+    <td>2,046</td>
+  </tr>
+  <tr>
+    <td>/22</td>
+    <td>1,024</td>
+  </tr>
+  <tr>
+    <td>/23</td>
+    <td>512</td>
+  </tr>
+  <tr>
+    <td>/24</td>
+    <td>256</td>
+  </tr>
+  <tr>
+    <td>/25</td>
+    <td>128</td>
+  </tr>
+  <tr>
+    <td>/26</td>
+    <td>64</td>
+  </tr>
+  <tr>
+    <td>/27</td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td>/28</td>
+    <td>16</td>
   </tr>
 </table>
