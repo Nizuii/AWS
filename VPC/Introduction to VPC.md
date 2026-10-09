@@ -44,3 +44,5 @@ Each Region contains multiple Availability Zones (AZs), which are separate data 
 
 A Region is not a single building. Inside each Region, AWS builds multiple separate data center locations, and each one is an Availability Zone. Each AZ has its own power, cooling, and networking, so a failure in one is unlikely to take down the others. They sit far enough apart to avoid sharing the same disaster, such as a fire or flood, but close enough to be connected by very fast, low-latency links. The hierarchy is:
 > Region → Availability Zones → Data centers
+
+AZs are named by adding a letter to the Region code. In Mumbai you’ll see ap-south-1a, ap-south-1b, and ap-south-1c. Most Regions have three AZs, and some have more.
