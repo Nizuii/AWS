@@ -54,3 +54,16 @@ So inorder to understand why AZ's exist lets head back to our bank analogy. A Re
 A VPC or Virtual Private Cloud is an isolated network inside AWS. When we create resources like servers, we need to place them in a network. A VPC is that network, and we control who can get in, who can get out, and how things inside talk to each other.
 
 Using the bank analogy again: a Region is the city, and a VPC is our own fenced-off building within it. Other customers have their own buildings in the same city, and nobody can walk into ours unless we build a door and allow them in.
+
+A VPC belongs to one region and it can span all the AZ's inside that region. A VPC created in Mumbai exists only in Mumbai, but its parts can be spread across ap-south-1a, 1b, and 1c. A VPC is just a container. Several pieces make it work:
+
+- **IP address Range**: It is the pool of private addresses our VPC can use, for example `10.0.0.0/16`. Think of it as the total number of “house numbers” available inside our building.
+- **Subnets**: these are the smaller sections of our VPC. Each subnet lives in one AZ. This is how we place resources in different AZs.
+- **Route tables**: the road signs that tell traffic where to go.
+- **Internet Gateway (IGW)**: the front door to the internet. Without one, nothing inside can reach the internet and the internet cannot reach us.
+
+Without a private network, all customers’ servers would sit in one big shared space. A VPC gives us:
+
+1. **Isolation**: Our resources are separated from every other AWS customer.
+2. **Control**: We decide the IP ranges, which parts are public, and which parts stay private.
+3. **Security**: We can keep sensitive things like databases in areas with no direct internet access.
