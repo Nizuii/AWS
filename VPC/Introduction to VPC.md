@@ -10,15 +10,19 @@
     <th><strong>Code</strong></th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Asia Pacific (Mumbai)</td>
+    <td>ap-south-1</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Asia Pacific (Hyderabad)</td>
+    <td>ap-south-2</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Europe (Ireland)</td>
+    <td>eu-west-1</td>
+  </tr>
+  <tr>
+    <td>Europe (London)</td>
+    <td>eu-west-2</td>
   </tr>
 </table>
