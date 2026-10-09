@@ -67,3 +67,7 @@ Without a private network, all customers’ servers would sit in one big shared 
 1. **Isolation**: Our resources are separated from every other AWS customer.
 2. **Control**: We decide the IP ranges, which parts are public, and which parts stay private.
 3. **Security**: We can keep sensitive things like databases in areas with no direct internet access.
+
+## What is Subnet
+
+A subnet is a slice of our VPC's IP range, placed inside one AZ. For example my
