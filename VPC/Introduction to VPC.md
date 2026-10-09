@@ -46,3 +46,5 @@ A Region is not a single building. Inside each Region, AWS builds multiple separ
 > Region → Availability Zones → Data centers
 
 AZs are named by adding a letter to the Region code. In Mumbai you’ll see ap-south-1a, ap-south-1b, and ap-south-1c. Most Regions have three AZs, and some have more.
+
+So inorder to understand why AZ's exist lets head back to our bank analogy. A Region is the city’s branch, and the AZs are separate vaults in different parts of that city. If one vault loses power, the others keep working. If we put our application in one AZ and that AZ has a problem, our application goes down. If you spread it across two or more AZs, the others keep serving users. This is called high availability, and it is the main reason AZs exist.
