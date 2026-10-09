@@ -70,4 +70,4 @@ Without a private network, all customers’ servers would sit in one big shared 
 
 ## What is Subnet
 
-A subnet is a slice of our VPC's IP range, placed inside one AZ. For example my
+A subnet is a slice of our VPC's IP range, placed inside one AZ. For example my my VPC has `10.0.0.0/16` as the total pool of IP addresses, and each subnet takes a smaller portion of it. 
