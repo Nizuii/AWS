@@ -236,3 +236,7 @@ In the building analogy: the security group is the guard at each room’s door, 
     <td>Default NACL allows everything</td>
   </tr>
 </table>
+
+### The two ideas that matter most in NACL.
+
+1. **Stateless**: A NACL does not remember connections. If we allow a request in, the reply is not automatically allowed back out. We must write a separate outbound rule for the reply traffic.
