@@ -240,3 +240,4 @@ In the building analogy: the security group is the guard at each room’s door, 
 ### The two ideas that matter most in NACL.
 
 1. **Stateless**: A NACL does not remember connections. If we allow a request in, the reply is not automatically allowed back out. We must write a separate outbound rule for the reply traffic.
+2. **Rule numbers and Deny**: Rules carry numbers like 100, 200, 300. AWS checks them from the lowest number up and stops at the first match. Because NACLs can deny, We can block one specific bad IP address even though everything else is allowed. Every NACL also ends with a final * rule that denies anything unmatched.
