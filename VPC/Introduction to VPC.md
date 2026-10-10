@@ -202,4 +202,37 @@ Common ports to remember: 22 (SSH, remote admin for Linux), 80 (HTTP), 443 (HTTP
 
 A Network ACL is a second firewall, but it works at a different level. Where a security group guards a server, a NACL guards a whole subnet. Every packet entering or leaving the subnet is checked against it.
 
-In the building analogy: the security group is the guard at each room’s door, and the NACL is the checkpoint at the entrance of the whole floor.
+In the building analogy: the security group is the guard at each room’s door, and the NACL is the checkpoint at the entrance of the whole floor. NACLs differ from security groups:
+
+<table>
+  <tr>
+    <th></th>
+    <th>Security group</th>
+    <th>Network ACL</th>
+  </tr>
+  <tr>
+    <td><strong>Protects</strong></td>
+    <td>A server</td>
+    <td>A Subnet</td>
+  </tr>
+  <tr>
+    <td><strong></strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong></strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong></strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong></strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
