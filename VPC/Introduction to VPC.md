@@ -143,3 +143,14 @@ Public subnet is not enough for a server to be reachable from the internet. A ro
 2. The server has a public IP address (or an Elastic IP)
 
 Without the second one, the server is in a public subnet but still unreachable from outside. AWS assigns a public IP automatically in default VPC subnets, which is why launching a server there just works.
+
+### What the Internet Gateway actually does
+
+The IGW is a managed AWS component with no cost and no maintenance, and it is built to scale automatically. It does two jobs: it provides a target for internet-bound routes, and it translates between a server’s private IP and its public IP. Our server only knows its private IP (like 172.31.5.10). The IGW swaps in the public IP on the way out and swaps it back on the way in.
+
+Our database sits in a private subnet with no public IP and no route to the IGW, which is great for security. But it still needs to download updates and security patches from the internet. A **NAT** gateway solves this. It sits in a public subnet, and private subnets point their 0.0.0.0/0 route at it instead of at the IGW. The result is one-way traffic:
+
+- A private server can start a connection out to the internet (to download an update).
+- The internet cannot start a connection in to the private server.
+
+It works like a receptionist who makes outgoing calls for staff, but never connects strangers to them. 
