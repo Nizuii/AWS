@@ -7,3 +7,7 @@ AWS (Amazon Web Services) solves this by owning huge data centers full of server
 - Compute means processing power (CPU and memory), the “brain” of a computer.
 - Cloud means you use it over the internet instead of owning it.
 - Elastic means you can grow or shrink what you use quickly, in minutes.
+
+An EC2 instance behaves like a normal computer. I choose an operating system (Linux or Windows), log in remotely, install software, and run whatever I want. The only difference is that it lives in an Amazon data center, not on my desk.
+
+**A simple Analogy**: renting a car instead of buying one. I pick the size I need, pay only while I use it, return it when I am done and never worry about maintenance.
