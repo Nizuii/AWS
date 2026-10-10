@@ -179,4 +179,19 @@ Each rule has four parts:
     <td>The kind of traffic</td>
     <td>SSH (TCP)</td>
   </tr>
+  <tr>
+    <td>Port</td>
+    <td>The “door number” on the server</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Source (inbound) or Destination (outbound)</td>
+    <td>Who is allowed</td>
+    <td>0.0.0.0/0 or one IP</td>
+  </tr>
+  <tr>
+    <td>Description</td>
+    <td>Our own note</td>
+    <td>“Admin access”</td>
+  </tr>
 </table>
