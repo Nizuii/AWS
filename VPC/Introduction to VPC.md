@@ -154,3 +154,14 @@ Our database sits in a private subnet with no public IP and no route to the IGW,
 - The internet cannot start a connection in to the private server.
 
 It works like a receptionist who makes outgoing calls for staff, but never connects strangers to them. 
+
+## Security Groups
+
+A security group is a virtual firewall attached to a server (technically, to its network interface). It decides which traffic is allowed in and out of that server.
+
+Think of the building analogy once more. The route table builds the roads and the IGW is the front door of the whole estate. The security group is the security guard at our own room’s door, checking every visitor against a guest list. The key rule to understand:
+
+1. **Allow Rules Only**: We write rules for what is allowed. We cannot write a “deny” rule. Anything not explicitly allowed is blocked. So the default stance is deny everything unless we say otherwise, which is a good security principle.
+2. **Inbound and outbound are separate**: Inbound rules control traffic coming to the server. Outbound rules control traffic leaving it.
+3. **Stateful**: If we allow a request in, the reply is automatically allowed back out, with no extra rule needed.
+4. **Attached to resources, not subnets**: We attach a security group to a server, not to a subnet, so two servers in the same subnet can have different rules.
