@@ -216,23 +216,23 @@ In the building analogy: the security group is the guard at each room’s door, 
     <td>A Subnet</td>
   </tr>
   <tr>
-    <td><strong></strong></td>
-    <td></td>
-    <td></td>
+    <td><strong>Rule types</strong></td>
+    <td>Allow only</td>
+    <td>Allow and Deny</td>
   </tr>
   <tr>
-    <td><strong></strong></td>
-    <td></td>
-    <td></td>
+    <td><strong>State</strong></td>
+    <td>Stateful</td>
+    <td>Stateless</td>
   </tr>
   <tr>
-    <td><strong></strong></td>
-    <td></td>
-    <td></td>
+    <td><strong>Rule order</strong></td>
+    <td>All rules evaluated together</td>
+    <td>Numbered, checked lowest number first</td>
   </tr>
   <tr>
-    <td><strong></strong></td>
-    <td></td>
-    <td></td>
+    <td><strong>Default</strong></td>
+    <td>Blocks everything not allowed</td>
+    <td>Default NACL allows everything</td>
   </tr>
 </table>
