@@ -195,3 +195,5 @@ Each rule has four parts:
     <td>“Admin access”</td>
   </tr>
 </table>
+
+Common ports to remember: 22 (SSH, remote admin for Linux), 80 (HTTP), 443 (HTTPS), 3389 (RDP, remote desktop for Windows).
