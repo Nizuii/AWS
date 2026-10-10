@@ -197,3 +197,9 @@ Each rule has four parts:
 </table>
 
 Common ports to remember: 22 (SSH, remote admin for Linux), 80 (HTTP), 443 (HTTPS), 3389 (RDP, remote desktop for Windows).
+
+## NACL (Network Access Control List).
+
+A Network ACL is a second firewall, but it works at a different level. Where a security group guards a server, a NACL guards a whole subnet. Every packet entering or leaving the subnet is checked against it.
+
+In the building analogy: the security group is the guard at each room’s door, and the NACL is the checkpoint at the entrance of the whole floor.
