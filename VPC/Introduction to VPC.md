@@ -136,3 +136,10 @@ In AWS, each subnet also reserves 5 addresses for its own use, so a /24 has 251 
 ### Public vs private subnets
 
 A subnet is not public or private because of its name. It is public if its route table has a route to an Internet Gateway. The route looks like this: destination 0.0.0.0/0 (meaning “everywhere else”) goes to igw-xxxx. If no such route exists, the subnet is private: its resources can talk to others inside the VPC but not directly to the internet. 
+
+Public subnet is not enough for a server to be reachable from the internet. A route to the Internet Gateway is only one of the two things that makes it happen. Think of a building with a front door (the IGW) and a street address. The route table builds the road to the door, but visitors also need our address. For a server to talk to the internet, both must be true:
+
+1. Its subnet has a route `0.0.0.0/0 → igw-...`
+2. The server has a public IP address (or an Elastic IP)
+
+Without the second one, the server is in a public subnet but still unreachable from outside. AWS assigns a public IP automatically in default VPC subnets, which is why launching a server there just works.
