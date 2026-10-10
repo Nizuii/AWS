@@ -165,3 +165,18 @@ Think of the building analogy once more. The route table builds the roads and th
 2. **Inbound and outbound are separate**: Inbound rules control traffic coming to the server. Outbound rules control traffic leaving it.
 3. **Stateful**: If we allow a request in, the reply is automatically allowed back out, with no extra rule needed.
 4. **Attached to resources, not subnets**: We attach a security group to a server, not to a subnet, so two servers in the same subnet can have different rules.
+
+Each rule has four parts:
+
+<table>
+  <tr>
+    <th>Part</th>
+    <th>Meaning</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>Type / Protocol</td>
+    <td>The kind of traffic</td>
+    <td>SSH (TCP)</td>
+  </tr>
+</table>
