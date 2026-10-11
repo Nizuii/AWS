@@ -11,3 +11,5 @@ When someone types myshop.com, their browser asks Route 53 where that lives. Rou
 ## Loadbalancer (The receptionist)
 
 Suppose my website is running on one server. If it crashes, the site is down. If 10,000 people arrive at once, it gets overwhelmed. The fix is several servers, plus a load balancer in front that shares visitors between them.
+
+A load balancer also runs health checks, which means it keeps pinging each server asking “are you alive?” If a server stops answering, no more visitors are sent to it. Users never notice a server died.
