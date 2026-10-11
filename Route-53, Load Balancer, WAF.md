@@ -6,4 +6,4 @@ Imagine I am running a popular restaurant. Customer needs to find my restaurant,
 
 Computers talk using IP addresses like `54.231.10.5`. Humans remember names like `website.com`. **DNS (Domain Name System)** is the internet's phonebook that turns a name into address. Route 53 is AWS’s DNS service. (The “53” is the port number DNS uses.)
 
-When someone types myshop.com, their browser asks Route 53 where that lives. Route 53 answers with the address of my loadbalancer. It can also check whether my servers are healthy and send visitors to a backup region if my main one fails.
+When someone types myshop.com, their browser asks Route 53 where that lives. Route 53 answers with the address of my loadbalancer. It can also check whether my servers are healthy and send visitors to a backup region if my main one fails. Server addresses change, but my domain name stays the same. Route 53 keeps pointing the name at the right place.
